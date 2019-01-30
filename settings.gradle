@@ -1,0 +1,3 @@
+rootProject.name = 'WzorceProjektowe'
+
+include '01_adapter'
