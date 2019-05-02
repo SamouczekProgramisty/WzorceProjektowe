@@ -3,7 +3,7 @@ package pl.samouczekprogramisty.patterns;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Blog implements Observeable {
+public class Blog implements Observable {
 
     private Set<Observer> observers = new HashSet<>();
     private String newestArticle;

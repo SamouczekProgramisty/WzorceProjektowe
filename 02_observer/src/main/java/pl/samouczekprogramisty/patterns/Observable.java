@@ -1,6 +1,6 @@
 package pl.samouczekprogramisty.patterns;
 
-public interface Observeable {
+public interface Observable {
     void attach(Observer observer);
     void detach(Observer observer);
     void notifyObservers();
