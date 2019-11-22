@@ -9,8 +9,6 @@ public class PizzaWithHam extends Pizza {
 
     public PizzaWithHam(Pizza basePizza) {
         this.basePizza = basePizza;
-        this.toppings.addAll(basePizza.toppings);
-        this.toppings.add("ham");
     }
 
     @Override
