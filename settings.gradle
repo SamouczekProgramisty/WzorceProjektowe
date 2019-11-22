@@ -2,4 +2,5 @@ rootProject.name = 'WzorceProjektowe'
 
 include '01_adapter'
 include '02_observer'
+include '03_decorator'
 
