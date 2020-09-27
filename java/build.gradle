@@ -1,0 +1,11 @@
+subprojects {
+    apply plugin: 'java-library'
+    apply plugin: 'idea'
+
+    repositories {
+        jcenter()
+    }
+
+    group = 'pl.samouczekprogramisty.patterns'
+    version = '1.0-SNAPSHOT'
+}
